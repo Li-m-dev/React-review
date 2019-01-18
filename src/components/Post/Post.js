@@ -50,7 +50,7 @@ export default class Post extends Component {
   }
 
   render() {
-    // console.log(this.props)
+    console.log(this.props)
     // This is destructuring! You can also think of it as being written as so:
       // const editing = this.state.editing
       // const showMasterMenu = this.state.showMasterMenu
@@ -103,6 +103,7 @@ export default class Post extends Component {
                     />
             :
               <span className="Post__text">{this.props.text}</span>
+              // <p>logan</p>
           }
         </div>
 
